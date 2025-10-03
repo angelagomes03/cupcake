@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcake</title>
+    
+
+    <style>
+        body{
+            background-color: rgb(194, 209, 222);
+
+            #foto{
+                text-align:center;
+            }
+
+            #sabor {
+                width: 40px;
+            }
+            
+            #contato{
+                text-align: center;
+                background-color: brown;
+            }
+            
+            #Adicionar {
+                margin-top: 10px ;
+                margin-bottom:10 px;
+                width: 70px;
+            }
+
+            #op {
+                width: 110px;
+                border-radius: 100px;
+            }
+
+            #paragrafo{
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            #login {
+                width: 100px;
+            }
+            #senha{
+                width: 100px;
+            }
+        }
+        </style>
+
+
+
+</head>
+<body>
+    <p id="paragrafo"> <strong>CUPCAKE DA ALEGRIA</strong> </p >
+   
+    <div id="foto">
+            <img id="imagem" src="foto.png" alt="foto do dia">
+    </div>
+
+    <Label>Login</Label>
+    <input type="text" id="login">
+
+    <label>Senha:</label>
+    <input type="text" id="senha"> <br> <br><br>
+
+
+    <label for ="cup">🧁Escolha o sabor do seu Cupcake 👉</label>
+
+    <select id="op">
+       <option>🍫 Chocolate</option>
+       <option>🍓 Morango</option>
+       <option>🥥 Coco</option>
+    </select>
+
+
+
+    <div>
+        <label id="Adicionar" for="Adicionar">Adicionar:</label>
+        <select name="sabores" id="sab">
+            <option value="chocolate">Nutella</option>
+            <option value="granulado">Granulado</option>
+            <option value="chantilly">Chantilly</option>
+            <option value="morango">Morango extra</option>
+        </select>
+    </div> <br>
+
+    <button>Adicionar ao carrinho 🛒</button> 
+    <div id="contato">
+        <p><strong><p>🍰🧁 Encomende seu Cupcake pelo WhatsApp!</p></strong></p>
+        <P><strong>(41)997460042</strong></P>
+    </div>
+   
+</body>
+</html>
